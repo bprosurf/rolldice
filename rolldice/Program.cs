@@ -46,8 +46,8 @@ namespace rolldice
         // Method to simulate rolling a single die
         static int RollDie()
         {
-            Random random = new Random();
-            return random.Next(1, 7);
+            Random r = new Random();
+            return r.Next(1, 7);
         }
 
     }
