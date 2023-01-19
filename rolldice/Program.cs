@@ -40,6 +40,9 @@ namespace rolldice
                 }
                 Console.WriteLine();
             }
+            
+            // outro for after the histogram is created
+            Console.WriteLine("You threw " + numberOfRolls + " times. Noice");
             Console.WriteLine("Thank you for playing!  Goodbye");
         }
 
